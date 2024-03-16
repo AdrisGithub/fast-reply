@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "fast-reply",
-	"version": "${version}",
+	"version": "1.0.0",
 	"name": "fast reply",
 	"description": "Adds back the /r command to respond to the last incoming /msg",
 	"authors": [
@@ -11,6 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
+	"icon": "assets/icon.png",
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
