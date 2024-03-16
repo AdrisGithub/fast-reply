@@ -18,7 +18,7 @@ public class FastReplyClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ClientReceiveMessageEvents.CHAT.register((message, signedMessage, sender, params, receptionTimestamp) -> {
-            if (params.type().chat().translationKey().equals(SENDER_MSG_KEY) && sender.getName() != null) {
+            if (params.type().chat().translationKey().equals(SENDER_MSG_KEY) && sender != null && sender.getName() != null) {
                 responder.setLastName(sender.getName());
             }
         });
