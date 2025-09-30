@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "fast-reply",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"name": "fast reply",
 	"description": "Adds back the /r command to respond to the last incoming /msg",
 	"authors": [
@@ -20,9 +20,9 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.2",
-		"java": ">=17",
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.9",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
